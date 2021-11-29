@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7d9427c2-d6bb-4807-b28e-d51ba271fbd8": {
+      "ProjectGuid": "7d9427c2-d6bb-4807-b28e-d51ba271fbd8",
+      "DisplayName": "ImageGallery.API",
+      "ColorIndex": 0
+    },
+    "06d1048b-31a1-4faa-bdde-b098ebadaf85": {
+      "ProjectGuid": "06d1048b-31a1-4faa-bdde-b098ebadaf85",
+      "DisplayName": "ImageGallery.Client",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
