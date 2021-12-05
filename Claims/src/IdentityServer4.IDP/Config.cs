@@ -18,7 +18,12 @@ namespace IdentityServer4.IDP
                 //Given Name and Family Name
                 new IdentityResources.Profile(),
                 //Getting ready for calling the UserInfo endpoint
-                new IdentityResources.Address()
+                new IdentityResources.Address(),
+                //Role scope is not defined as one of the standard in the OpenIDConnect scopes.
+                new IdentityResource(
+                    "roles",            //Scope
+                    "Your role(s)",     //Display name
+                    new List<string>() { "role"})  //List of claims that application should return when application asks for this role scope.
 
             };
 
@@ -47,7 +52,8 @@ namespace IdentityServer4.IDP
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
-                        IdentityServerConstants.StandardScopes.Address                       
+                        IdentityServerConstants.StandardScopes.Address,
+                        "roles"
                     },
                     ClientSecrets =
                     {

@@ -29,7 +29,8 @@ namespace IdentityServerHost.Quickstart.UI
                             
                             new Claim(JwtClaimTypes.GivenName, "Frank"),
                             new Claim(JwtClaimTypes.FamilyName, "Underwood"),
-                            new Claim(JwtClaimTypes.Address, "Main Road 1")
+                            new Claim(JwtClaimTypes.Address, "Main Road 1"),
+                            new Claim(JwtClaimTypes.Role, "FreeUser")
                         }
                     },
                     new TestUser
@@ -42,7 +43,8 @@ namespace IdentityServerHost.Quickstart.UI
                             
                             new Claim(JwtClaimTypes.GivenName, "Claire"),
                             new Claim(JwtClaimTypes.FamilyName, "Underwood"),
-                            new Claim(JwtClaimTypes.Address, "Big Street 2")
+                            new Claim(JwtClaimTypes.Address, "Big Street 2"),
+                            new Claim(JwtClaimTypes.Role, "PayingUser")
                         }
                     }
                 };
