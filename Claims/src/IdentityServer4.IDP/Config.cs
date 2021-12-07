@@ -2,6 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using IdentityModel;
 using IdentityServer4.Models;
 using System.Collections.Generic;
 
@@ -23,7 +24,7 @@ namespace IdentityServer4.IDP
                 new IdentityResource(
                     "roles",            //Scope
                     "Your role(s)",     //Display name
-                    new List<string>() { "role"})  //List of claims that application should return when application asks for this role scope.
+                    new List<string>() { JwtClaimTypes.Role })  //List of claims that application should return when application asks for this role scope.
 
             };
 
