@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7d9427c2-d6bb-4807-b28e-d51ba271fbd8": {
+      "ProjectGuid": "7d9427c2-d6bb-4807-b28e-d51ba271fbd8",
+      "DisplayName": "ImageGallery.API",
+      "ColorIndex": 0
+    },
+    "06d1048b-31a1-4faa-bdde-b098ebadaf85": {
+      "ProjectGuid": "06d1048b-31a1-4faa-bdde-b098ebadaf85",
+      "DisplayName": "ImageGallery.Client",
+      "ColorIndex": 1
+    },
+    "dcd7af82-85d9-4a64-aaaa-f9523fdc6f90": {
+      "ProjectGuid": "dcd7af82-85d9-4a64-aaaa-f9523fdc6f90",
+      "DisplayName": "Sans.IDP",
+      "ColorIndex": 2
+    },
+    "f6173aad-1d8c-4512-9d71-b343eff122f9": {
+      "ProjectGuid": "f6173aad-1d8c-4512-9d71-b343eff122f9",
+      "DisplayName": "IdentityServer4.IDP",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
